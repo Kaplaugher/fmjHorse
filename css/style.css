@@ -1,0 +1,261 @@
+/* FONT FACES */
+@font-face {
+    font-family: 'Aventura-Bold';
+    src: local('Aventura-Bold.otf'), url('Aventura-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.ttf'), url('Nunito-Regular.ttf') format('truetype');
+}
+
+
+
+html, 
+body {
+    height: 100%;
+    font-size: 16px;
+    background: url('../img/brickwall.jpg') center center;
+}
+
+/*NAVBAR*/
+
+
+
+/*SECTION COVER*/
+
+#cover {
+    height: 100%;
+    background: url(../img/farm.jpg) center;
+    background-size: cover;
+    color: #BD2843; 
+}
+
+.home-title {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 5rem 20rem 16rem 3rem;
+    font-family: 'Aventura-Bold';
+    font-size: 4rem;
+    color: #BD2843;
+    height: 100vh;
+}
+
+.home-description {
+    font-family: 'Aventura-Bold';
+    font-size: 3rem;
+    margin-top: 300px;
+    margin-left: 350px;
+    text-align: center;
+    color: white;
+}
+
+/* SPANS */
+.red-text {
+    color: #BD2843; 
+}
+
+/* BUTTONS */
+.btn-lg,
+.btn-success-outline {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #BD2843;
+    font-family: 'Nunito-Regular';
+    transition: 0.5s;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+    background-color: #BD2843;
+    border: 1px solid rgba(19, 128, 26, 0);
+    transition: 0.5s;
+}
+
+.learn-more {
+    margin-top: 20rem;
+}
+
+a .fa-arrow-down {
+    margin-left: 22rem;
+    margin-top: 50px;
+    font-size: 50px;;
+    color: white;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.fa-arrow-down:hover {
+    color: #BD2843;
+    transition: 0.3s;
+}
+
+/*SECTION FEATURES*/
+
+.section-features {
+    padding: 5rem 0;
+    background: url('../img/brickwall.png') center center;
+
+}
+
+.square {
+    text-align: center;
+}
+
+.square i {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+}
+
+
+
+.fa-handshake-o:hover {
+    transition: 0.3s;
+    color: #489FDF;
+
+}
+
+.fa-tree:hover {
+    color: rgba(19,128,36,1);
+    transition: 0.3s;
+
+
+}
+
+.fa-heart:hover {
+    color: #F934CB;
+    transition: 0.3s;
+
+}
+
+.fa-child:hover {
+    transition: 0.3s;
+    color: #BD2843;
+    
+
+}
+
+.square p {
+    padding-top: 1rem;
+    font-family: "Nunito-Regular";
+    font-size: 1.2rem;
+}
+
+.green-hr {
+    border-top: 1px solid rgba(19,128,36,1);
+    width: 150px;
+    background-color: rgba(19,128,36,1);
+}
+
+.heading {
+    text-align: center;
+}
+
+/*PARALLAX*/
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/para-horses.jpg) center repeat fixed;
+    padding: 140px 0;
+    background-size: cover;
+    color: white;
+    font-family: 'Aventura-Bold';
+    margin-bottom: 5rem;
+    
+}
+
+/*HORSES*/
+
+#section-horses {
+    margin-top: 5rem;
+}
+
+.card-img-top {
+    height: 150px;
+    width: 300px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #222;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+    margin-top: 15px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding-right: 25px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    font-size: 120%;
+    transition: 0.2s;
+}
+
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+.fa-facebook-square, 
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-instagram {
+    transition: 0.2s;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+.fa-chevron-circle-up {
+    margin-top: 35px;
+    color: #BD2843;
+    transition: 0.2s;
+}
+
+.fa-chevron-circle-up:hover {
+    color: #BD2843;
+    transition: 0.2s;
+}
+
